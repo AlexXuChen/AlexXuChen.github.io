@@ -6,7 +6,7 @@ import "./styles.css";
 class Links extends Component {
   render() {
     return (
-     <div className="bg-dark text-center" id="links">
+     <div id="links">
         <div className="links">
           <a href="https://www.linkedin.com/in/alexander-xu-chen/" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-linkedin text-light"></i>
@@ -26,9 +26,9 @@ class Links extends Component {
           <a href="https://www.facebook.com/people/Alex-Chen/100005588077292" target="_blank" rel="noopener noreferrer">
             <i class='fab fa-facebook text-light'></i>
           </a>
-          {/* <a href="https://instagram.com/alexxuchen/" target="_blank">
+          <a href="https://instagram.com/alexxuchen/" target="_blank">
             <i class="fab fa-instagram text-light"></i>
-          </a> */}
+          </a>
         </div>
       </div>
     )
