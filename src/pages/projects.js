@@ -6,6 +6,7 @@ import "./styles.css";
 class Projects extends Component {
   render() {
     return (
+      <div></div>
     )
   }
 }
