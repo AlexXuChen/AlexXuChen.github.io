@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 //import { Link } from "react-scroll";
+// import { Button } from "react-bootstrap"
 
 import "./styles.css";
 
@@ -28,6 +29,9 @@ class Links extends Component {
           </a>
           <a href="https://www.instagram.com/cookingcuzcovid/" target="_blank">
             <i class="fab fa-instagram fa-3x"></i>
+          </a>
+          <a href="https://www.piskelapp.com/user/5946630501564416#" target="_blank">
+            <i class="fas fa-palette fa-3x"></i>
           </a>
         </div>
       </div>
