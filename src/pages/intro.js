@@ -15,19 +15,16 @@ class Intro extends Component {
                         <span className="highlight">Alexander Xu Chen</span>
                         .</p>
                     <Typist.Delay ms={1000} />
-                    <p>I'm a {' '}
+                    <p>
                         <span className="highlight">Software Developer</span> 
-                        {' '} studying {' '}
+                        {' '}studying{' '}
                         <span className="highlight">Computer Science</span>
-                        {' '} at the {' '}
+                        {' '} @ {' '}
                         <span className="highlight">University of Toronto</span>
                         .</p>
                     <Typist.Delay ms={500} />
                     <p>Welcome to my website!</p>
                 </Typist>
-            </div>
-            <div className="profileContainer">
-                <img className="profile" src={require('../res/profile.jpg')} alt="profile"/>
             </div>
         </div>
     )
