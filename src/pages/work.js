@@ -6,7 +6,7 @@ class Work extends Component {
   render() {
     return (
       <div className="work">
-        
+        Hello
       </div>
     )
   }
