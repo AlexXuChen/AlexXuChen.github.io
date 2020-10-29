@@ -22,7 +22,7 @@ class Navbar extends Component {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/work">
                   Work
                 </a>
               </li>
@@ -32,7 +32,7 @@ class Navbar extends Component {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Stack">
+                <a class="nav-link" href="/stack">
                   Stack
                 </a>
               </li>
