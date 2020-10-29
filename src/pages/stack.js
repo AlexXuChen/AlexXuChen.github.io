@@ -3,11 +3,14 @@ import { Link } from "react-scroll";
 
 import "./styles.css";
 
-class Projects extends Component {
+class Stack extends Component {
   render() {
     return (
+      <div className="stack">
+        
+      </div>
     )
   }
 }
 
-export default Projects
+export default Stack
