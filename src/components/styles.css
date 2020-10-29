@@ -5,3 +5,11 @@
     border-radius: 50%;
     width: 50px;
 }
+.links {
+    position: absolute;
+    bottom: 7.5vmin;
+    letter-spacing: 2em;
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+}
