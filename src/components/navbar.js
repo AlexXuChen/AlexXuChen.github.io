@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="nav">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a className="navbar-brand navName" href="#">
             <img
               src={require("../res/profile.jpg")}
