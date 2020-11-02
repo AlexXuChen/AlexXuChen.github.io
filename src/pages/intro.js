@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Typist from 'react-typist'
-// import { Link } from "react-scroll";
-import Navbar from "../components/navbar"
 import Links from "../components/links"
 
 import "./styles.css";
