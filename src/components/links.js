@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-//import { Link } from "react-scroll";
-// import { Button } from "react-bootstrap"
 
 import "./styles.css";
 

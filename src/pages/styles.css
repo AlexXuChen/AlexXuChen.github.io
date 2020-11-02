@@ -1,22 +1,11 @@
+/* Intro */
+
 .intro {
     overflow: auto;
     top: 0; right: 0; bottom: 0; left: 0;
     display: flex;
 }
-/* .profileContainer {
-    position: absolute;
-    background-color: whitesmoke;
-    height: 100%;
-    width: 20%;
-    text-align: center;
-}
-.profile {
-    width: 90%;
-    border-radius: 50%;
-    border: solid 3px black;
-    margin-top: 65%;
-    margin-left: 20%;
-} */
+
 .introText {
     height: 100%;
     position: absolute;
@@ -34,3 +23,9 @@
 body {
     color: black;
 }
+
+/* Work */
+
+/* Projects */
+
+/* Stack */
