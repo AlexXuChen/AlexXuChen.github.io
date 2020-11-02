@@ -3,39 +3,57 @@ import React, { Component } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/js/dist/util';
 
-
 import "./styles.css";
 
 class Work extends Component {
   render() {
     return (
-      
-        // <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        //   <ol class="carousel-indicators">
-        //     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        //     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        //     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        //   </ol>
-        //   <div class="carousel-inner">
-        //     <div class="carousel-item active">
-        //       <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide" />
-        //     </div>
-        //     <div class="carousel-item">
-        //       <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide" />
-        //     </div>
-        //     <div class="carousel-item">
-        //       <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide" />
-        //     </div>
-        //   </div>
-        //   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        //     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        //     <span class="sr-only">Previous</span>
-        //   </a>
-        //   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        //     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        //     <span class="sr-only">Next</span>
-        //   </a>
-        // </div>
+      <div className="container" id="work">
+        <br />
+        <br />
+        <br />
+        <br />
+        {/* Row 1 */}
+        <div class="card-deck">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://logos-download.com/wp-content/uploads/2016/04/Bell_logo.png"
+              class="card-img-top"
+              alt="..."
+            ></img>
+            <div class="card-body">
+              <h5 class="card-title">Bell Canada Enterprises</h5>
+              <h7 className="title-tag">
+                Software Engineering Intern - IoT Application Developer
+              </h7>
+              <p class="card-text">May 2019 - September 2019</p>
+              <hr />
+              <h7 className="title-tag">
+                Software Engineering Intern - Backend and DevOps Engineer
+              </h7>
+              <p class="card-text">May 2020 - September 2020</p>
+            </div>
+          </div>
+        </div>
+        {/* Row 2 */}
+        <br></br>
+        <div class="card-deck">
+          <div class="card bg-dark text-white">
+            <img
+              src="https://www.apothecary.ai/apothecary-logo.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Apothecary.ai</h5>
+              <h7 className="title-tag">
+                Contractor
+              </h7>
+              <p class="card-text">September 2020 - Present</p>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }

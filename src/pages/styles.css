@@ -31,6 +31,19 @@ body {
     top: 0; right: 0; bottom: 0; left: 0;
     display: flex;
 }
+.workCards {
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    border-color: white;
+}
 
 /* Projects */
 
