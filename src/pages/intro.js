@@ -11,7 +11,6 @@ class Intro extends Component {
   render() {
     return (
         <div>
-            <Navbar />
             <div className="intro">
                 <div className="introText">
                     <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }}>

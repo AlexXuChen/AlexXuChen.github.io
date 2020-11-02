@@ -11,6 +11,8 @@ import "./App.css";
 
 function App() {
   return (
+    <div>
+      <Navbar></Navbar>
     <Router>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -28,6 +30,7 @@ function App() {
                             (<Stack />)}/>
         </Switch>
     </Router>
+    </div>
   );
 }
 
