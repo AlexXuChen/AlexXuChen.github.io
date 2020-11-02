@@ -17,7 +17,7 @@ class Navbar extends Component {
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/intro">
+                <a class="nav-link" href="/">
                     Alexander Xu Chen
                 </a>
               </li>
