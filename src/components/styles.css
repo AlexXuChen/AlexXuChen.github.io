@@ -14,3 +14,11 @@
     margin: auto; 
     text-align: center;
 }
+
+.blackiconcolor {
+    color:black;
+}
+
+.blackiconcolor:hover {
+    color: #0085ff
+}

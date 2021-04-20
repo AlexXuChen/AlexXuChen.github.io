@@ -4,7 +4,6 @@ import Links from "../components/links"
 
 import "./styles.css";
 
-
 class Intro extends Component {
   render() {
     return (
