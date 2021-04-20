@@ -31,11 +31,11 @@ class Navbar extends Component {
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="/stack">
                   Stack
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
