@@ -1,58 +1,126 @@
 import React, { Component } from "react";
+import { Http, FreeBreakfastOutlined, WebAssetOutlined, CodeOutlined } from '@material-ui/icons';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/js/dist/util';
-
+import "react-vertical-timeline-component/style.min.css";
 import "./styles.css";
+
+import RedHat from '../res/work/redhat.bmp';
+import Apothecary from '../res/work/apothecary.bmp';
+import Bell from '../res/work/bell.bmp';
+import Starbucks from '../res/work/starbucks.bmp';
 
 class Work extends Component {
   render() {
     return (
-      <div className="container" id="work">
+      <div id="work">
         <br />
         <br />
         <br />
         <br />
-        {/* Row 1 */}
-        <div class="card-deck">
-          <div class="card bg-dark text-white">
-            <img
-              src="https://logos-download.com/wp-content/uploads/2016/04/Bell_logo.png"
-              class="card-img-top"
-              alt="..."
-            ></img>
-            <div class="card-body">
-              <h5 class="card-title">Bell Canada Enterprises</h5>
-              <h7 className="title-tag">
-                Software Engineering Intern - IoT Application Developer
-              </h7>
-              <p class="card-text">May 2019 - September 2019</p>
-              <hr />
-              <h7 className="title-tag">
-                Software Engineering Intern - Backend and DevOps Engineer
-              </h7>
-              <p class="card-text">May 2020 - September 2020</p>
+        <VerticalTimeline className="vertical-timeline-custom-line">
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="Jun 2017 - Aug 2018"
+            dateStyle={{ color: "#fff" }}
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<FreeBreakfastOutlined/>}
+          >
+            <div className="timeline-info">
+              <img className="timeline-pic" src={Starbucks}/>
+              <div className="timeline-text">
+                <h3 className="vertical-timeline-element-title">Starbucks</h3>
+                <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
+              </div>
             </div>
-          </div>
-        </div>
-        {/* Row 2 */}
-        <br></br>
-        <div class="card-deck">
-          <div class="card bg-dark text-white">
-            <img
-              src="https://www.apothecary.ai/apothecary-logo.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Apothecary.ai</h5>
-              <h7 className="title-tag">
-                Contractor
-              </h7>
-              <p class="card-text">September 2020 - Present</p>
+            <p>
+              Partner
+              <br/>
+              Barista
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
+            date="May 2019 - Aug 2019"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<Http/>}
+          >
+            <div className="timeline-info">
+              <img className="timeline-pic" src={Bell}/>
+              <div className="timeline-text">
+                <h3 className="vertical-timeline-element-title">Bell Canada Enterprises</h3>
+                <h4 className="vertical-timeline-element-subtitle">Greater Toronto Area, ON</h4>
+              </div>
             </div>
-          </div>
-        </div>
+            <p> 
+              Software Engineering Intern 
+              <br/>
+              Network IoT 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="May 2020 - Aug 2020"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<Http/>}
+          >
+            <div className="timeline-info">
+              <img className="timeline-pic" src={Bell}/>
+              <div className="timeline-text">
+                <h3 className="vertical-timeline-element-title">Bell Canada Enterprises</h3>
+                <h4 className="vertical-timeline-element-subtitle">Greater Toronto Area, ON</h4>
+              </div>
+            </div>
+            <p> 
+              Backend Developer Intern 
+              <br/>
+              Network IoT 
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
+            date="Sep 2020 - Dec 2020"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={<WebAssetOutlined/>}
+          >
+          <div className="timeline-info">
+            <img className="timeline-pic" src={Apothecary}/>
+              <div className="timeline-text">
+                <h3 className="vertical-timeline-element-title">Apothecary.ai</h3>
+                <h4 className="vertical-timeline-element-subtitle">San Francisco Bay Area, CA</h4>
+              </div>
+            </div>
+            <p>Frontend Developer Co-op</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="May 2021 - present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            icon={ <CodeOutlined/> }
+          >
+            <div className="timeline-info">
+                <img className="timeline-pic" src={RedHat}/>
+              <div className="timeline-text">
+                <h3 className="vertical-timeline-element-title">Red Hat Software</h3>
+                <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
+              </div>
+            </div>
+            <p>Software Developer Intern</p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </div>
     );
   }
