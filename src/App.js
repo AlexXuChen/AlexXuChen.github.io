@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { Component } from "react";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Intro from "./pages/intro";
 import Projects from "./pages/projects";
@@ -9,29 +9,57 @@ import Navbar from "./components/navbar";
 
 import "./App.css";
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div>
-    <Navbar />
-    <Router>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-        <Route exact path='/' render={() => 
-                            (<Intro />)}/>
+      <Router basename='/'>
+      <div className="nav">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a className="navbar-brand navName" href="#">
+            <img
+              src={require("./res/profile.jpg")}
+              className="profile d-inline-block align-top"
+              alt=""
+            />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <Link class="nav-link" to="/">
+                    Alexander Xu Chen
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/work">
+                  Work
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/projects">
+                  Projects
+                </Link>
+              </li>
+              {/* <li class="nav-item">
+                <a class="nav-link" href="/stack">
+                  Stack
+                </a>
+              </li> */}
+            </ul>
+          </div>
+        </nav>
+      </div>
+        <Route exact path='/' component={Intro}/>
 
-            <Route exact path='/work' render={() => 
-                            (<Work />)}/>
+        <Route path='/work' component={Work}/>
 
-            <Route exact path='/projects' render={() => 
-                            (<Projects />)}/>
+        <Route path='/projects' component={Projects}/>
 
-            <Route exact path='/stack' render={() => 
-                            (<Stack />)}/>
-        </Switch>
-    </Router>
-    </div>
-  );
+        <Route path='/stack' component={Stack}/>
+      </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
