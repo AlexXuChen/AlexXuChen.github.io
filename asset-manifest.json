@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1ed5d20.chunk.css",
+    "main.js": "/static/js/main.47dde545.chunk.js",
+    "main.js.map": "/static/js/main.47dde545.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab7119da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab7119da.js.map",
+    "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
+    "static/js/2.c8274f54.chunk.js": "/static/js/2.c8274f54.chunk.js",
+    "static/js/2.c8274f54.chunk.js.map": "/static/js/2.c8274f54.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2ee5d353fd3ec722d6254392036baf59.js": "/precache-manifest.2ee5d353fd3ec722d6254392036baf59.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
+    "static/css/main.b1ed5d20.chunk.css.map": "/static/css/main.b1ed5d20.chunk.css.map",
+    "static/js/2.c8274f54.chunk.js.LICENSE.txt": "/static/js/2.c8274f54.chunk.js.LICENSE.txt",
+    "static/media/achievementhub.png": "/static/media/achievementhub.a3978104.png",
+    "static/media/apothecary.bmp": "/static/media/apothecary.62e48afd.bmp",
+    "static/media/arcticminers.jpg": "/static/media/arcticminers.e7f981d0.jpg",
+    "static/media/bell.bmp": "/static/media/bell.32638b63.bmp",
+    "static/media/bellsmartcity.png": "/static/media/bellsmartcity.3d9e7188.png",
+    "static/media/cssu.bmp": "/static/media/cssu.0a71e1f0.bmp",
+    "static/media/desperado.png": "/static/media/desperado.1927f1a0.png",
+    "static/media/doctor.jpeg": "/static/media/doctor.eb9d9471.jpeg",
+    "static/media/pixelpenciljs.jpg": "/static/media/pixelpenciljs.db7af838.jpg",
+    "static/media/profile.jpg": "/static/media/profile.e68dab92.jpg",
+    "static/media/redhat.bmp": "/static/media/redhat.3b98d3e0.bmp",
+    "static/media/robodropper.jpg": "/static/media/robodropper.e0deeb71.jpg",
+    "static/media/safebet.jpg": "/static/media/safebet.0d20a47d.jpg",
+    "static/media/starbucks.bmp": "/static/media/starbucks.209603c2.bmp",
+    "static/media/twiliochatbot.png": "/static/media/twiliochatbot.a87e1912.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab7119da.js",
+    "static/css/2.22ca87da.chunk.css",
+    "static/js/2.c8274f54.chunk.js",
+    "static/css/main.b1ed5d20.chunk.css",
+    "static/js/main.47dde545.chunk.js"
+  ]
+}
