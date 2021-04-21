@@ -106,8 +106,8 @@ class Work extends Component {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="May 2019 - Aug 2019"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<Http/>}
@@ -128,8 +128,8 @@ class Work extends Component {
         
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
             date="Jun 2017 - Aug 2018"
             dateStyle={{ color: "#fff" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
