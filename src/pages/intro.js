@@ -10,7 +10,7 @@ class Intro extends Component {
         <div>
             <div className="intro">
                 <div className="introText">
-                    <Typist avgTypingDelay={40} cursor={{ hideWhenDone: true }}>
+                    <Typist avgTypingDelay={20} cursor={{ hideWhenDone: true }}>
                         <p>Hi there, my name is {' '}
                             <span className="highlight">Alexander Xu Chen</span>
                             .</p>
