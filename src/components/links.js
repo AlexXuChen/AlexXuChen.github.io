@@ -22,9 +22,9 @@ class Links extends Component {
           <a href="https://devpost.com/AlexXuChen" target="_blank" rel="noopener noreferrer">
             <i class='fas fa-code fa-3x blackiconcolor'></i>
           </a>
-          <a href="https://www.facebook.com/people/Alex-Chen/100005588077292" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://www.facebook.com/people/Alex-Chen/100005588077292" target="_blank" rel="noopener noreferrer">
             <i class='fab fa-facebook fa-3x blackiconcolor'></i>
-          </a>
+          </a> */}
           <a href="https://www.instagram.com/cookingcuzcovid/" target="_blank">
             <i class="fab fa-instagram fa-3x blackiconcolor"></i>
           </a>
