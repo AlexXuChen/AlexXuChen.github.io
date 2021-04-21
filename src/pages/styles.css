@@ -82,6 +82,20 @@ span {
     margin-right: 5%;
 }
 
+.button-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+i:hover {
+    color: rgb(149, 149, 149) !important;
+}
+
+.title-tag {
+    font-style: italic;
+  }
+
 /* Stack */
 
 .stack {
