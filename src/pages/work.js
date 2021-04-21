@@ -32,7 +32,7 @@ class Work extends Component {
             icon={<FreeBreakfastOutlined/>}
           >
             <div className="timeline-info">
-              <img className="timeline-pic" src={Starbucks}/>
+              <img className="timeline-pic" src={Starbucks} alt="Starbucks"/>
               <div className="timeline-text">
                 <h3 className="vertical-timeline-element-title">Starbucks</h3>
                 <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
@@ -53,7 +53,7 @@ class Work extends Component {
             icon={<Http/>}
           >
             <div className="timeline-info">
-              <img className="timeline-pic" src={Bell}/>
+              <img className="timeline-pic" src={Bell} alt="Bell"/>
               <div className="timeline-text">
                 <h3 className="vertical-timeline-element-title">Bell Canada Enterprises</h3>
                 <h4 className="vertical-timeline-element-subtitle">Greater Toronto Area, ON</h4>
@@ -74,7 +74,7 @@ class Work extends Component {
             icon={<Http/>}
           >
             <div className="timeline-info">
-              <img className="timeline-pic" src={Bell}/>
+              <img className="timeline-pic" src={Bell} alt="Bell"/>
               <div className="timeline-text">
                 <h3 className="vertical-timeline-element-title">Bell Canada Enterprises</h3>
                 <h4 className="vertical-timeline-element-subtitle">Greater Toronto Area, ON</h4>
@@ -95,7 +95,7 @@ class Work extends Component {
             icon={<WebAssetOutlined/>}
           >
           <div className="timeline-info">
-            <img className="timeline-pic" src={Apothecary}/>
+            <img className="timeline-pic" src={Apothecary} alt="Apothecary.ai"/>
               <div className="timeline-text">
                 <h3 className="vertical-timeline-element-title">Apothecary.ai</h3>
                 <h4 className="vertical-timeline-element-subtitle">San Francisco Bay Area, CA</h4>
@@ -112,7 +112,7 @@ class Work extends Component {
             icon={ <CodeOutlined/> }
           >
             <div className="timeline-info">
-                <img className="timeline-pic" src={RedHat}/>
+                <img className="timeline-pic" src={RedHat} alt="RedHat"/>
               <div className="timeline-text">
                 <h3 className="vertical-timeline-element-title">Red Hat Software</h3>
                 <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
