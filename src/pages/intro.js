@@ -16,6 +16,7 @@ class Intro extends Component {
                             .</p>
                         <Typist.Delay ms={1000} />
                         <p>
+                            I'm a{' '}
                             <span className="highlight">Software Developer</span> 
                             {' '}studying{' '}
                             <span className="highlight">Computer Science</span>
