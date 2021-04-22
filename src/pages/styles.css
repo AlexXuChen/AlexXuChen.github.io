@@ -1,4 +1,7 @@
 /* Intro */
+.intro-p {
+    display: inline-block;
+}
 
 .intro {
     overflow: auto;
