@@ -39,7 +39,11 @@ class Work extends Component {
               <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
             </div>
           </div>
-          <p>Software Developer Intern</p>
+          <p>
+            Software Developer Intern
+            <br/>
+            Development Tools and IDE Services
+          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

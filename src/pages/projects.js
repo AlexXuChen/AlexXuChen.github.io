@@ -45,37 +45,6 @@ class Projects extends Component {
                 </div>
               </div>
 
-              <div class="card p-3">
-                <img
-                  class="card-img-top"
-                  src={PixelPencil}
-                  alt="PixelPenciljs"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">PixelPencil.js</h5>
-                  <p class="card-text">
-                    Open-source JS library to add a pixel painting canvas to
-                    webpages.
-                  </p>
-                </div>
-                <div className="button-container">
-                  <a
-                    href="https://pixelpenciljs.herokuapp.com/"
-                    class="btn btn-outline-dark btn-lg"
-                    role="button"
-                    aria-pressed="true"
-                  >
-                    Check it out
-                  </a>
-                  <a
-                    href="https://github.com/csc309-fall-2020/js-library-chenal14"
-                    class="btn btn-lg"
-                  >
-                    <i class="fab fa-github fa-2x"></i>
-                  </a>
-                </div>
-              </div>
-
               <div class="card">
                 <img
                   class="card-img-top"
@@ -100,6 +69,27 @@ class Projects extends Component {
                   </a>
                   <a
                     href="https://github.com/csc309-fall-2020/team30"
+                    class="btn btn-lg"
+                  >
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card p-3">
+                <img class="card-img-top" src={Desperado} alt="Desperado" />
+                <div class="card-body">
+                  <h5 class="card-title">Desperado</h5>
+                  <h7 className="title-tag">Android Mobile Game</h7>
+                  <p class="card-text">
+                    A game made in Java and XML with a SQL backend for user
+                    tracking and data. Implements fundamental design patterns
+                    and model view presenter architecture.
+                  </p>
+                </div>
+                <div className="button-container">
+                  <a
+                    href="https://github.com/faarisali/desperado-android"
                     class="btn btn-lg"
                   >
                     <i class="fab fa-github fa-2x"></i>
@@ -142,19 +132,29 @@ class Projects extends Component {
               </div>
 
               <div class="card p-3">
-                <img class="card-img-top" src={Desperado} alt="Desperado" />
+                <img
+                  class="card-img-top"
+                  src={PixelPencil}
+                  alt="PixelPenciljs"
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Desperado</h5>
-                  <h7 className="title-tag">Android Mobile Game</h7>
+                  <h5 class="card-title">PixelPencil.js</h5>
                   <p class="card-text">
-                    A game made in Java and XML with a SQL backend for user
-                    tracking and data. Implements fundamental design patterns
-                    and model view presenter architecture.
+                    Open-source JS library to add a pixel painting canvas to
+                    webpages.
                   </p>
                 </div>
                 <div className="button-container">
                   <a
-                    href="https://github.com/faarisali/desperado-android"
+                    href="https://pixelpenciljs.herokuapp.com/"
+                    class="btn btn-outline-dark btn-lg"
+                    role="button"
+                    aria-pressed="true"
+                  >
+                    Check it out
+                  </a>
+                  <a
+                    href="https://github.com/csc309-fall-2020/js-library-chenal14"
                     class="btn btn-lg"
                   >
                     <i class="fab fa-github fa-2x"></i>
@@ -163,45 +163,23 @@ class Projects extends Component {
               </div>
 
               <div class="card">
-                <img class="card-img-top" src={RoboDropper} alt="RoboDropper" />
+                <img
+                  class="card-img-top"
+                  src={TwilioChatBot}
+                  alt="TwilioChatBot"
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Robo-Dropper</h5>
-                  <h7 className="title-tag">
-                    Pueblo Science Hackathon for Science Education Winner
-                  </h7>
+                  <h5 class="card-title">Twilio CPaaS Solutions</h5>
+                  <h7 className="title-tag">Twilio Online Developer Program</h7>
                   <p class="card-text">
-                    A custom built Arduino board programmed with C++ to automate
-                    an application relevant and beneficial to 3rd world
-                    education.
+                    Prototyped SMS Chatbot and Survey using Twilio provided
+                    phone number for direct user communication, powered by
+                    regular expressions.
                   </p>
                 </div>
                 <div className="button-container">
                   <a
-                    href="https://www.artsci.utoronto.ca/news/hackathon-science-education-hacking-better-world?fbclid=IwAR0T7zmL5y94kUCAwGm61Thg08iLqUJiyj7BvgP7fm5xFYEy1xx_UfL-Mxo"
-                    class="btn btn-outline-dark btn-lg"
-                    role="button"
-                    aria-pressed="true"
-                  >
-                    Check it out
-                  </a>
-                </div>
-              </div>
-
-              <div class="card">
-                <img class="card-img-top" src={Doctor} alt="Doctor" />
-                <div class="card-body">
-                  <h5 class="card-title">
-                    Medication Scheduling Application Prototype
-                  </h5>
-                  <p class="card-text">
-                    Interactive Figma prototype for a medication scheduling,
-                    prescription collection and medical professional contacting
-                    application.
-                  </p>
-                </div>
-                <div className="button-container">
-                  <a
-                    href="https://www.figma.com/proto/8kp5ISEtnXpGeSyw3cYA8e/csc318?node-id=187%3A2&scaling=min-zoom&page-id=0%3A1"
+                    href="https://www.twilio.com/bots"
                     class="btn btn-outline-dark btn-lg"
                     role="button"
                     aria-pressed="true"
@@ -240,23 +218,21 @@ class Projects extends Component {
               </div>
 
               <div class="card">
-                <img
-                  class="card-img-top"
-                  src={TwilioChatBot}
-                  alt="TwilioChatBot"
-                />
+                <img class="card-img-top" src={RoboDropper} alt="RoboDropper" />
                 <div class="card-body">
-                  <h5 class="card-title">Twilio CPaaS Solutions</h5>
-                  <h7 className="title-tag">Twilio Online Developer Program</h7>
+                  <h5 class="card-title">Robo-Dropper</h5>
+                  <h7 className="title-tag">
+                    Pueblo Science Hackathon for Science Education Winner
+                  </h7>
                   <p class="card-text">
-                    Prototyped SMS Chatbot and Survey using Twilio provided
-                    phone number for direct user communication, powered by
-                    regular expressions.
+                    A custom built Arduino board programmed with C++ to automate
+                    an application relevant and beneficial to 3rd world
+                    education.
                   </p>
                 </div>
                 <div className="button-container">
                   <a
-                    href="https://www.twilio.com/bots"
+                    href="https://www.artsci.utoronto.ca/news/hackathon-science-education-hacking-better-world?fbclid=IwAR0T7zmL5y94kUCAwGm61Thg08iLqUJiyj7BvgP7fm5xFYEy1xx_UfL-Mxo"
                     class="btn btn-outline-dark btn-lg"
                     role="button"
                     aria-pressed="true"
