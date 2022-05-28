@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0fb1f3d.chunk.css",
-    "main.js": "/static/js/main.e696b2d9.chunk.js",
-    "main.js.map": "/static/js/main.e696b2d9.chunk.js.map",
+    "main.css": "/static/css/main.d2303f58.chunk.css",
+    "main.js": "/static/js/main.bf176c45.chunk.js",
+    "main.js.map": "/static/js/main.bf176c45.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab7119da.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab7119da.js.map",
     "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
-    "static/js/2.34e5a883.chunk.js": "/static/js/2.34e5a883.chunk.js",
-    "static/js/2.34e5a883.chunk.js.map": "/static/js/2.34e5a883.chunk.js.map",
+    "static/js/2.f561234f.chunk.js": "/static/js/2.f561234f.chunk.js",
+    "static/js/2.f561234f.chunk.js.map": "/static/js/2.f561234f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5eef91c662c2e3c622575f4c3239bf51.js": "/precache-manifest.5eef91c662c2e3c622575f4c3239bf51.js",
+    "precache-manifest.67ae5822510fd7d4482b0e48d54a9033.js": "/precache-manifest.67ae5822510fd7d4482b0e48d54a9033.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
-    "static/css/main.a0fb1f3d.chunk.css.map": "/static/css/main.a0fb1f3d.chunk.css.map",
-    "static/js/2.34e5a883.chunk.js.LICENSE.txt": "/static/js/2.34e5a883.chunk.js.LICENSE.txt",
+    "static/css/main.d2303f58.chunk.css.map": "/static/css/main.d2303f58.chunk.css.map",
+    "static/js/2.f561234f.chunk.js.LICENSE.txt": "/static/js/2.f561234f.chunk.js.LICENSE.txt",
     "static/media/achievementhub.png": "/static/media/achievementhub.a3978104.png",
     "static/media/apothecary.bmp": "/static/media/apothecary.62e48afd.bmp",
     "static/media/arcticminers.jpg": "/static/media/arcticminers.e7f981d0.jpg",
@@ -28,13 +28,14 @@
     "static/media/robodropper.jpg": "/static/media/robodropper.e0deeb71.jpg",
     "static/media/safebet.jpg": "/static/media/safebet.0d20a47d.jpg",
     "static/media/starbucks.bmp": "/static/media/starbucks.209603c2.bmp",
-    "static/media/twiliochatbot.png": "/static/media/twiliochatbot.a87e1912.png"
+    "static/media/twiliochatbot.png": "/static/media/twiliochatbot.a87e1912.png",
+    "static/media/uoft.bmp": "/static/media/uoft.4e9bcf06.bmp"
   },
   "entrypoints": [
     "static/js/runtime-main.ab7119da.js",
     "static/css/2.22ca87da.chunk.css",
-    "static/js/2.34e5a883.chunk.js",
-    "static/css/main.a0fb1f3d.chunk.css",
-    "static/js/main.e696b2d9.chunk.js"
+    "static/js/2.f561234f.chunk.js",
+    "static/css/main.d2303f58.chunk.css",
+    "static/js/main.bf176c45.chunk.js"
   ]
 }
