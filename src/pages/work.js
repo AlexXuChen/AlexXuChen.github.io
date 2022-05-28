@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Http, FreeBreakfastOutlined, WebAssetOutlined, CodeOutlined, SupervisorAccount } from '@material-ui/icons';
+import { Http, FreeBreakfastOutlined, WebAssetOutlined, CodeOutlined, SupervisorAccount, School } from '@material-ui/icons';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,6 +13,7 @@ import Apothecary from '../res/work/apothecary.bmp';
 import Bell from '../res/work/bell.bmp';
 import Starbucks from '../res/work/starbucks.bmp';
 import CSSU from '../res/work/cssu.bmp';
+import UofT from '../res/work/uoft.bmp';
 
 class Work extends Component {
   render() {
@@ -26,11 +27,11 @@ class Work extends Component {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentStyle={{ background: "rgb(33, 150, 243) ", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="May 2021 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={ <CodeOutlined/> }
+          icon={<CodeOutlined/>}
         >
           <div className="timeline-info">
               <img className="timeline-pic" src={RedHat} alt="RedHat"/>
@@ -42,13 +43,31 @@ class Work extends Component {
           <p>
             Software Developer Intern
             <br/>
-            Development Tools and IDE Services
+            VSCode Plugins and Tooling
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="Jan 2022 - Apr 2022"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={ <School/> }
+        >
+          <div className="timeline-info">
+          <img className="timeline-pic" src={UofT} alt="University of Toronto"/>
+            <div className="timeline-text">
+              <h3 className="vertical-timeline-element-title">University of Toronto</h3>
+              <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
+            </div>
+          </div>
+          <p>CSC303 Teaching Assistant</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
           date="Sep 2020 - Dec 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -88,8 +107,8 @@ class Work extends Component {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
+          contentStyle={{ background: "rgb(33, 150, 243) ", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Sep 2019 - Apr 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<SupervisorAccount/>}
@@ -132,8 +151,8 @@ class Work extends Component {
         
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "rgb(245,245,245) ", color: "#000" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(245,245,245)" }}
+            contentStyle={{ background: "rgb(33, 150, 243) ", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
             date="Jun 2017 - Aug 2018"
             dateStyle={{ color: "#fff" }}
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
