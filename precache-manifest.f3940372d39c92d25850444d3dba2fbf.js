@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64058071828c34bab8b8b79594e174d9",
+    "revision": "6b51a4da43db8daebdef192b4058f0a8",
     "url": "/index.html"
   },
   {
-    "revision": "51b3a3683c3f56c219e1",
+    "revision": "1376978000e64eec79b4",
     "url": "/static/css/2.22ca87da.chunk.css"
   },
   {
-    "revision": "f14fbd5eedb5a72c4b14",
-    "url": "/static/css/main.d2303f58.chunk.css"
+    "revision": "e014d471c65595d55b54",
+    "url": "/static/css/main.8b9d4fe0.chunk.css"
   },
   {
-    "revision": "51b3a3683c3f56c219e1",
-    "url": "/static/js/2.f561234f.chunk.js"
+    "revision": "1376978000e64eec79b4",
+    "url": "/static/js/2.9aa1b6ad.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.f561234f.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9aa1b6ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f14fbd5eedb5a72c4b14",
-    "url": "/static/js/main.bf176c45.chunk.js"
+    "revision": "e014d471c65595d55b54",
+    "url": "/static/js/main.ef9e36f2.chunk.js"
   },
   {
     "revision": "2470e9b25e276ba96a23",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/desperado.1927f1a0.png"
   },
   {
-    "revision": "eb9d9471fe80ba11727effb936a46f14",
-    "url": "/static/media/doctor.eb9d9471.jpeg"
+    "revision": "7df3dd498e5e2efb61bd3cc81b1dcfd3",
+    "url": "/static/media/hubspot.7df3dd49.bmp"
   },
   {
     "revision": "db7af838a5cca40603600eee66c332a8",
@@ -90,5 +90,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e9bcf06a1e1523c7d41b7ac4e687afc",
     "url": "/static/media/uoft.4e9bcf06.bmp"
+  },
+  {
+    "revision": "4cb107138a064126054b834166dd9486",
+    "url": "/static/media/vscodejava.4cb10713.png"
+  },
+  {
+    "revision": "dc75fd14cd03be415bddc13a4796a4d8",
+    "url": "/static/media/vscodemicroprofile.dc75fd14.png"
+  },
+  {
+    "revision": "d9a973f30a6ab49caf3602c9f8caf98e",
+    "url": "/static/media/vscodequarkus.d9a973f3.png"
+  },
+  {
+    "revision": "2f8828e93f5baf27623584cc30e54e69",
+    "url": "/static/media/vscodexml.2f8828e9.png"
   }
 ]);
