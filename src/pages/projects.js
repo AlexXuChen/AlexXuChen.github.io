@@ -107,7 +107,7 @@ class Projects extends Component {
                 </div>
                 <div className="button-container">
                   <a
-                    href="https://business.bell.ca/shop/medium-large/internet-of-things/smart-cities"
+                    href="https://marketplace.visualstudio.com/items?itemName=redhat.vscode-microprofile"
                     class="btn btn-outline-dark btn-lg"
                     role="button"
                     aria-pressed="true"
