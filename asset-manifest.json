@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b9d4fe0.chunk.css",
-    "main.js": "/static/js/main.ef9e36f2.chunk.js",
-    "main.js.map": "/static/js/main.ef9e36f2.chunk.js.map",
+    "main.css": "/static/css/main.82ece67b.chunk.css",
+    "main.js": "/static/js/main.17854b70.chunk.js",
+    "main.js.map": "/static/js/main.17854b70.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab7119da.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab7119da.js.map",
-    "static/css/2.22ca87da.chunk.css": "/static/css/2.22ca87da.chunk.css",
-    "static/js/2.9aa1b6ad.chunk.js": "/static/js/2.9aa1b6ad.chunk.js",
-    "static/js/2.9aa1b6ad.chunk.js.map": "/static/js/2.9aa1b6ad.chunk.js.map",
+    "static/css/2.0e31c611.chunk.css": "/static/css/2.0e31c611.chunk.css",
+    "static/js/2.4b0ccb72.chunk.js": "/static/js/2.4b0ccb72.chunk.js",
+    "static/js/2.4b0ccb72.chunk.js.map": "/static/js/2.4b0ccb72.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f3940372d39c92d25850444d3dba2fbf.js": "/precache-manifest.f3940372d39c92d25850444d3dba2fbf.js",
+    "precache-manifest.f88dd887cb2de1eef847d58263ae1f7a.js": "/precache-manifest.f88dd887cb2de1eef847d58263ae1f7a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.22ca87da.chunk.css.map": "/static/css/2.22ca87da.chunk.css.map",
-    "static/css/main.8b9d4fe0.chunk.css.map": "/static/css/main.8b9d4fe0.chunk.css.map",
-    "static/js/2.9aa1b6ad.chunk.js.LICENSE.txt": "/static/js/2.9aa1b6ad.chunk.js.LICENSE.txt",
+    "static/css/2.0e31c611.chunk.css.map": "/static/css/2.0e31c611.chunk.css.map",
+    "static/css/main.82ece67b.chunk.css.map": "/static/css/main.82ece67b.chunk.css.map",
+    "static/js/2.4b0ccb72.chunk.js.LICENSE.txt": "/static/js/2.4b0ccb72.chunk.js.LICENSE.txt",
     "static/media/achievementhub.png": "/static/media/achievementhub.a3978104.png",
     "static/media/apothecary.bmp": "/static/media/apothecary.62e48afd.bmp",
     "static/media/arcticminers.jpg": "/static/media/arcticminers.e7f981d0.jpg",
@@ -37,9 +37,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ab7119da.js",
-    "static/css/2.22ca87da.chunk.css",
-    "static/js/2.9aa1b6ad.chunk.js",
-    "static/css/main.8b9d4fe0.chunk.css",
-    "static/js/main.ef9e36f2.chunk.js"
+    "static/css/2.0e31c611.chunk.css",
+    "static/js/2.4b0ccb72.chunk.js",
+    "static/css/main.82ece67b.chunk.css",
+    "static/js/main.17854b70.chunk.js"
   ]
 }
