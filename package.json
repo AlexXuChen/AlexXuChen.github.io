@@ -16,7 +16,7 @@
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.8",
     "react-typist": "^2.0.5",
-    "react-vertical-timeline-component": "^3.3.3",
+    "react-vertical-timeline-component": "^3.5.2",
     "serve": "^11.3.2"
   },
   "scripts": {
