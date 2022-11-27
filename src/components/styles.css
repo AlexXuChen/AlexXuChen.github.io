@@ -15,6 +15,11 @@
     text-align: center;
 }
 
+.nav-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .blackiconcolor {
     color:black;
 }

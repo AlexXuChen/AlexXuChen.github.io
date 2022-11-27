@@ -19,6 +19,9 @@ class Projects extends Component {
   render() {
     return (
       <div className="projects">
+        {/* <h2 className="projects-title">My Projects </h2> */}
+        <br />
+        <br />
         <div class="projectCards container-fluid">
           <div class="row flex-row flex-nowrap">
             <div class="card-columns">
