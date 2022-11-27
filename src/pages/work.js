@@ -29,10 +29,9 @@ class Work extends Component {
   render() {
     return (
       <div id="work">
-        <br />
-        <br />
-        <br />
-        <br />
+      {/* <h2 className="work-title">My Work </h2> */}
+      <br/>
+      <br/>
         <VerticalTimeline className="vertical-timeline-custom-line">
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
