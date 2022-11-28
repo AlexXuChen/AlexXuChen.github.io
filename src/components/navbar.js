@@ -11,9 +11,9 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a className="navbar-brand navName" href="#">
+        <a className="navbar-brand navName">
           <img
-            src={require("../res/profile.jpg")}
+            src={require("../res/profile.jpeg")}
             className="profile d-inline-block align-top"
             alt=""
           />
